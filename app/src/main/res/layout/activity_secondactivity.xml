@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C96AB"
+    android:orientation="vertical"
+    tools:context=".Secondactivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/please_enter_your_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/please_enter_your_number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/please_enter_your_website"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etLoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/please_enter_your_location"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgSmile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/reshot_icon_smile_v8na59hru7" />
+
+        <ImageView
+            android:id="@+id/imgFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/reshot_icon_face_unb5tdahxr" />
+
+        <ImageView
+            android:id="@+id/imgSad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/reshot_icon_sadness_vm7cty6rk3" />
+
+    </LinearLayout>
+
+</LinearLayout>
